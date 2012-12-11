@@ -6,7 +6,7 @@
 }
 body {
 	background-color: #6FF;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Comic Sans MS", cursive;
 	font-size: 1em;
 }
 .content p {
@@ -17,4 +17,40 @@ body {
 .navigation td {
 	text-align: center;
 	padding-right: 45px;
+	background-color: #FCF;
+	font-family: "Comic Sans MS", cursive;
+	border-top-color: #FF6;
+	border-right-color: #FF6;
+	border-bottom-color: #FF6;
+	border-left-color: #FF6;
+	font-weight: normal;
+	font-size: 1em;
+	font-style: normal;
+	line-height: 1em;
+}
+header {
+	color: #C00;
+	font-size: 36px;
+}
+.links {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-align: left;
+	color: #F36;
+}
+
+.picture {
+	border: thick solid #F0F;
+	padding: 10px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.wrapper .content h1 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 4em;
+	color: #F00;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1em;
 }
