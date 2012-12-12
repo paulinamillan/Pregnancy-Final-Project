@@ -4,6 +4,23 @@
 	margin-right: auto;
 	margin-left: auto;
 }
+h1 {
+	color: #C00;
+	font-size: 36px;
+	font-family: "Comic Sans MS", cursive;
+	color: #F00;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1em;
+}
+.fancy-h1 {
+	font-size: 4em;
+	color: #F0F;
+	background-image: url(../images/Homepage/Pregnancy-Test.jpg);
+	background-attachment: scroll;
+	background-position: center center;
+	background-repeat: repeat-x;
+}
 body {
 	background-color: #6FF;
 	font-family: "Comic Sans MS", cursive;
@@ -13,7 +30,6 @@ body {
 	font-size: 1em;
 	line-height: 20px;
 }
-
 .navigation td {
 	text-align: center;
 	padding-right: 45px;
@@ -28,29 +44,27 @@ body {
 	font-style: normal;
 	line-height: 1em;
 }
-header {
-	color: #C00;
-	font-size: 36px;
-}
 .links {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: small;
 	text-align: left;
 	color: #F36;
 }
-
-.picture {
+a:hover {
+	color: #0FF;
+}
+.picture, .picture-right, .picture-left {
 	border: thick solid #F0F;
 	padding: 10px;
 	margin-top: 20px;
 	margin-right: 20px;
 	margin-left: 20px;
 }
-.wrapper .content h1 {
-	font-family: "Comic Sans MS", cursive;
-	font-size: 4em;
-	color: #F00;
-	text-transform: uppercase;
-	font-weight: bold;
-	line-height: 1em;
+.picture-right {
+	float: right;
+}
+.picture-left {
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 20px;
 }
